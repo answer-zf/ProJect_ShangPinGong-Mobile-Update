@@ -1,8 +1,8 @@
-
+/**
 * @Author: answer-zf
-* @Date:   2019-08-23 08:51:01
+* @Date:   2019-09-22 08:51:01
 * @Last Modified by:   answer-zf
-* @Last Modified time: 2019-09-22 15:08:02
+* @Last Modified time: 2019-09-22 16:59:16
 * @E-mail: 657829956@qq.com
 */
 
@@ -18,12 +18,12 @@ a:hover {
  *公共样式
  */
 /*字体样式*/
-@font-face{
-  font-family: 'iFont'; 
-  src: url('../font/titleFont.eot');
-  src:url('../font/titleFont.woff') format('woff'),
-      url('../font/titleFont.ttf') format('truetype'),
-      url('../font/titleFont.svg') format('svg');
+@font-face {
+    font-family: 'iFont';
+    src: url('../font/titleFont.eot');
+    src: url('../font/titleFont.woff') format('woff'),
+        url('../font/titleFont.ttf') format('truetype'),
+        url('../font/titleFont.svg') format('svg');
 }
 .ifont {
     font-family: 'iFont';
@@ -68,7 +68,7 @@ a:hover {
 
 /*背景*/
 .bg-m {
-    background: #c12a40;
+    background: #ce253f;
 }
 .bg-w {
     background: #fff;
@@ -79,38 +79,12 @@ a:hover {
 .bg-f5 {
     background: #f5f5f5;
 }
-.bg-wP {
-    background: url(../img/bg-w.png);
-}
-.bg-p {
-    background: url(../img/i-oriBg.jpg);
-}
-.px-4_5 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-.py-4_5 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-/*线条*/
-.line-40 {
-    width: 40%;
-    height: 3px;
-    background: #c12a40;
-}
-.line-40m {
-    width: 40%;
-    height: 2px;
-    background: #c12a40;
-}
+
 /*边框颜色*/
 .bdc-m {
     border-color: #c12a40 !important;
 }
-.bdc-mM {
-    border-color: rgba(10, 91, 86, .5) !important;
-}
+
 .bdc-w {
     border-color: #fff !important;
 }
@@ -126,6 +100,9 @@ a:hover {
 .tran {
     transition: all 1s ease;
 }
+.font-weight-600{
+    font-weight: 600;
+}
 
 /*初始化*/
 
@@ -138,26 +115,35 @@ a:hover {
     line-height: 30px;
     letter-spacing: 2px;
 }
+.banner {
+    margin-top: 80px;
+}
+.font-style-n{
+    font-style:normal;
+}
 /**
  * 首页
  */
-.navbar-zf-m .navbar-toggler{
+.navbar-zf-m .navbar-toggler {
     /*box-shadow: 0px 0px 5px rgba(193,42,64,.5);*/
-    border:1px solid rgba(193,42,64,.5);
+    border: 1px solid rgba(193, 42, 64, .5);
 }
-.navbar-zf{
-    padding-top:1.1rem;
-    padding-bottom:1.1rem;
+.navbar-zf {
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+}
+.navbar-zf .active {
+    font-weight: 700
 }
 
 
 /**
  * banner 重新定义选项卡
  */
-#banner{
+#banner {
     margin-top: 80px;
 }
-#banner .carousel-indicators{
+#banner .carousel-indicators {
     margin-left: 0;
     width: 36px;
     margin-right: 0;
@@ -171,16 +157,16 @@ a:hover {
     opacity: .8;
     /*background: #c12a40;    */
 }
-#banner .carousel-indicators li{
+#banner .carousel-indicators li {
     text-indent: 0;
     width: 36px;
     height: 26px;
     opacity: 1;
-    background: transparent; 
+    background: transparent;
 }
-#banner .carousel-indicators li span{
-    color:#fff;
-    z-index:200;
+#banner .carousel-indicators li span {
+    color: #fff;
+    z-index: 200;
     display: block;
     width: 36px;
     height: 26px;
@@ -189,57 +175,57 @@ a:hover {
     opacity: .6;
     /*font-weight: 700;*/
 }
-#banner .carousel-indicators li .mask{
+#banner .carousel-indicators li .mask {
     width: 100%;
     height: 26px;
     background: #c12a40;
     opacity: .8;
-    top:0;
-    left:0;
-    z-index:100;
+    top: 0;
+    left: 0;
+    z-index: 100;
 
 }
-#banner .carousel-indicators .active{
-        opacity: 1;
+#banner .carousel-indicators .active {
+    opacity: 1;
 }
 
-#banner .carousel-indicators .active span{
+#banner .carousel-indicators .active span {
     opacity: 1;
 
 }
-.part02{
+.part02 {
     background: url(../img/part_02.png) no-repeat center center;
-    padding:65px 15px 30px 15px;
+    padding: 65px 15px 30px 15px;
 }
-.part02 .text{
-    margin-top:25px;
+.part02 .text {
+    margin-top: 25px;
 }
 
-.text .h5{
+.text .h5 {
     font-family: 'iFont';
     /*font-weight:700;*/
     color: #444;
 }
-.text span{
-    font-size:14px;
+.text span {
+    font-size: 14px;
     display: block;
     color: #333;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
 }
 
 /*part03*/
 
-.part03{
+.part03 {
     background: url(../img/part03_bg.jpg);
 }
-.part03 .line{
-    width:10%;
-    height:2px;
+.part03 .line {
+    width: 10%;
+    height: 2px;
     background: #f0f0f0;
 }
 
 /*轮播插件*/
-.solution{
+.solution {
     width: 100%;
     overflow: hidden;
 }
@@ -252,18 +238,48 @@ a:hover {
 
 /*part04*/
 
-.part04{
+.part04 {
     background: url(../img/part04_bg.png) right top no-repeat;
 }
-.part06{
+.part06 {
     background: url(../img/part06.png) center 15px no-repeat;
-    padding-top:86px;
+    padding-top: 86px;
 }
-.part06 .text{
-    width:40%;
+.part06 .text {
+    width: 40%;
 }
-.part06 .line{
-    width:20%;
-    height:2px;
+.part06 .line {
+    width: 20%;
+    height: 2px;
     background: #c12a40;
+}
+
+/**
+ * origin
+ */
+
+.origin02 .line {
+    width: 20%;
+    height: 2px;
+    background: #c12a40;
+}
+
+.origin03 .case {
+    background: #fff;
+    width: 100%;
+}
+.origin03 .caseMin {
+    background: url(../img/origin03_bg.png) no-repeat;
+    width: 100%;
+}
+.origin03 .caseMin > .box{
+    width: 80%;
+}
+.origin03 .line{
+    width: 100%;
+    height: 3px;
+    background: #ce253f;
+}
+.font-size-3{
+    font-size: 3.2rem;
 }
