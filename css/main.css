@@ -2,7 +2,7 @@
 * @Author: answer-zf
 * @Date:   2019-09-22 08:51:01
 * @Last Modified by:   answer-zf
-* @Last Modified time: 2019-09-22 16:59:16
+* @Last Modified time: 2019-09-22 17:57:03
 * @E-mail: 657829956@qq.com
 */
 
@@ -282,4 +282,27 @@ a:hover {
 }
 .font-size-3{
     font-size: 3.2rem;
+}
+
+.food01{
+    background: url(../img/food02_bg.png) right top no-repeat;
+}
+
+.food01 .line{
+    width: 16%;
+    height: 2px;
+    background: #ce253f;
+    margin-left: 2px;
+}
+.food01 .my_card{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 1px 5px #dbdbdb;
+    border:none;
+}
+.text-food{
+    width: 50%;
+}
+.text-food span{
+    font-size: 14px;
 }
