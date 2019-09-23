@@ -2,7 +2,7 @@
 * @Author: answer-zf
 * @Date:   2019-09-22 08:51:01
 * @Last Modified by:   answer-zf
-* @Last Modified time: 2019-09-23 17:18:39
+* @Last Modified time: 2019-09-23 17:37:42
 * @E-mail: 657829956@qq.com
 */
 
@@ -414,4 +414,8 @@ a:hover {
     border-radius: 6px;
 }
 
-
+.bottom_float h5,
+.bottom_float button
+{
+    font-size: 18px;
+}
