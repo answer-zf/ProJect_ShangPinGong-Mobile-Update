@@ -2,7 +2,7 @@
 * @Author: answer-zf
 * @Date:   2019-09-22 08:51:01
 * @Last Modified by:   answer-zf
-* @Last Modified time: 2019-09-22 17:57:03
+* @Last Modified time: 2019-09-23 17:18:39
 * @E-mail: 657829956@qq.com
 */
 
@@ -54,10 +54,13 @@ a:hover {
     color: #fff !important;
 }
 .color-b {
-    color: #666;
+    color: #666 !important;
 }
-.color-p {
-    color: rgb(243, 182, 186);
+.color-d {
+    color: #333 !important;
+}
+.color-s {
+    color: #d7ad76;
 }
 .color-b-d {
     color: #333;
@@ -287,14 +290,18 @@ a:hover {
 .food01{
     background: url(../img/food02_bg.png) right top no-repeat;
 }
-
-.food01 .line{
+.food02{
+    background: url(../img/food03_bg.png) right top no-repeat;
+}
+.food01 .line,
+.food02 .line{
     width: 16%;
     height: 2px;
     background: #ce253f;
     margin-left: 2px;
 }
-.food01 .my_card{
+.food01 .my_card,
+.food02 .my_card{
     width: 100%;
     border-radius: 6px;
     box-shadow: 0px 1px 5px #dbdbdb;
@@ -306,3 +313,105 @@ a:hover {
 .text-food span{
     font-size: 14px;
 }
+
+.food-swiper .swiper-slide.swiper-slide-prev .swiper-slide-shadow-left{
+    width: 110px !important;
+    border-radius: 6px;
+}
+.food-swiper .swiper-slide .swiper-slide-shadow-left{
+    width: 110px !important;
+    border-radius: 6px;
+}
+
+/**
+ * news
+ */
+
+.news_page{
+    background: url(../img/news02.png) no-repeat;
+    padding-top:70px;
+}
+.news_page .line{
+    width: 12%;
+    height: 3px;
+    background: #c12a40;
+    margin-top: 26px;
+    margin-right: 8px;
+}
+.news_page span{
+    font-size:14px;
+    display: inline-block;
+    height:63px;
+    overflow: hidden;
+}
+.news_page .mask{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: #fff;
+    opacity: .4;
+    z-index: 10;
+}
+.news_z{
+    position: relative;
+    z-index: 20;
+}
+
+/**
+ * coop
+ */
+
+.coop_page{
+    background: url(../img/coop01.png) no-repeat;
+    padding-top: 70px;
+}
+.coop_page .test{
+    bottom: 18px;
+    left: 18px;
+    border-radius: 14px;
+    box-shadow: 0px 2px 5px rgba(193, 42, 64, .6);
+}
+.coop_page .test span{
+    font-size:14px;
+    display: block;
+    text-align: center;
+}
+
+/* 联系我们 */
+
+#use_contact input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+#use_contact .form-control {
+    font-size: 16px;
+    padding: 6px 0;
+}
+#use_contact .form-group {
+    margin-bottom: 26px;
+}
+
+
+.origin03 .lines{
+    width:100%;
+    height: 2px;
+    background: #fff;
+    opacity: .8;
+}
+.origin03 .text-contact span{
+    font-size: 12px;
+}
+.solution .swiper-slide.swiper-slide-prev .swiper-slide-shadow-left{
+    width: 131px !important;
+    border-radius: 6px;
+}
+
+
